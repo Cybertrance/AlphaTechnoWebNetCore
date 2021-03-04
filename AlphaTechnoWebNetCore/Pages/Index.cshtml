@@ -1,0 +1,573 @@
+﻿@page
+@model AlphaTechnoWeb.Pages.IndexModel
+@{
+}
+
+<!--====== ABOUT PART START ======-->
+<section id="about" class="about-area">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-6 col-lg-8">
+                <div class="about-image text-center wow fadeInUp" data-wow-duration="1.5s" data-wow-offset="100">
+                    <img src="./images/about-us-icon.png" alt="services">
+                </div>
+                <div class="section-title text-center mt-30 pb-40">
+                    <h4 class="title wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.6s">Who are we?</h4>
+                </div> <!-- section title -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1.2s">
+                            <div class="col-lg-12">
+                                <img src="./images/alpha-services.png" alt="Services">
+                            </div>
+                            <div class="col-lg-12 text-center">
+                                <p class="about-title">
+                                    With over 15 years of experience in the domain of IBMS. Alpha Technologies is a team of energetic, dynamic, competent and qualified professionals having rich experience and practically involved in offering niche services as required or a comprehensive package that frees the client to focus another issue.
+                                    As a complete business solution provider, we are mainly focused on providing high quality services that attracts business and binds them together.
+                                </p>
+                            </div>
+                        </div> <!-- single about -->
+                    </div>
+                </div>
+            </div> <!-- row -->
+
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="single-about d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1.2s">
+                    <div class="about-icon">
+                        <img src="./images/about-project-management.png" alt="Icon">
+                    </div>
+                    <div class="about-content media-body">
+                        <h4 class="about-title">Projects & Commissioning</h4>
+                        @*<p class="text">Project commisioning description placeholder.</p>*@
+                    </div>
+                </div> <!-- single about -->
+            </div>
+            <div class="col-lg-6">
+                <div class="single-about d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1.4s">
+                    <div class="about-icon">
+                        <img src="./images/about-products.png" alt="Icon">
+                    </div>
+                    <div class="about-content media-body">
+                        <h4 class="about-title">Materials & Products, Supply & Services</h4>
+                        @*<p class="text">Materials descrition placeholder.</p>*@
+                    </div>
+                </div> <!-- single about -->
+            </div>
+            <div class="col-lg-6">
+                <div class="single-about d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1.6s">
+                    <div class="about-icon">
+                        <img src="./images/about-maintenance.png" alt="Icon">
+                    </div>
+                    <div class="about-content media-body">
+                        <h4 class="about-title">Comprehensive Maintenance</h4>
+                        @*<p class="text">Comprehensive maintenance description placeholder.</p>*@
+                    </div>
+                </div> <!-- single about -->
+            </div>
+            <div class="col-lg-6">
+                <div class="single-about d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1.8s">
+                    <div class="about-icon">
+                        <img src="./images/about-nc-maintenance.png" alt="Icon">
+                    </div>
+                    <div class="about-content media-body">
+                        <h4 class="about-title">Non-Comprehensive Maintenance Add-on Projects</h4>
+                        @*<p class="text">Non-comprehensive maintenance placeholder.</p>*@
+                    </div>
+                </div> <!-- single about -->
+            </div>
+        </div> <!-- row -->
+    </div> <!-- container -->
+        </div>
+</section>
+<!--====== ABOUT PART ENDS ======-->
+<!--====== portfolio PART START ======-->
+<section id="portfolio" class="portfolio-area">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="section-title text-center pb-20">
+                    <h3 class="title">Our Portfolio</h3>
+                    <p class="text">Come, explore our wide range of services. Satisfaction guaranteed!</p>
+                    <h5 class="text-center mt-20">Click <a asp-page="Download" target="_blank">here</a> to download a list of all out products and services.</h5>
+                </div> <!-- row -->
+            </div>
+        </div> <!-- row -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="portfolio-menu pt-30 text-center">
+                    <ul>
+                        <li data-filter="*" class="active">ALL WORK</li>
+                        <li data-filter=".fire">FIRE SAFETY SYSTEMS</li>
+                        <li data-filter=".pa">PUBLIC ADDRESS SYSTEMS</li>
+                        <li data-filter=".access">ACCESS CONTROL SYSTEMS</li>
+                        <li data-filter=".bms">BMS SYSTEMS</li>
+                        <li data-filter=".cctv">CCTV</li>
+                    </ul>
+                </div> <!-- portfolio menu -->
+            </div>
+        </div> <!-- row -->
+        <div class="row grid">
+            <div class="col-lg-4 col-sm-6 fire">
+                <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                    <div class="portfolio-image">
+                        <img src="./images/portfolio/smoke-detector.png" alt="">
+                        <div class="portfolio-overlay d-flex align-items-center justify-content-center">
+                            <div class="portfolio-content">
+                                <div class="portfolio-icon">
+                                    <a class="image-popup" href="./images/portfolio/smoke-detector.png"><i class="lni-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-text">
+                        <h4 class="portfolio-title"><a href="#">Fire Detectors</a></h4>
+                        <p class="text">We provide fire detectors from the Notifier by Honeywell brand. Including heat, smoke and laser based detectors.</p>
+                    </div>
+                </div> <!-- single portfolio -->
+            </div>
+            <div class="col-lg-4 col-sm-6 fire">
+                <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                    <div class="portfolio-image">
+                        <img src="./images/portfolio/fire-alarm.png" alt="">
+                        <div class="portfolio-overlay d-flex align-items-center justify-content-center">
+                            <div class="portfolio-content">
+                                <div class="portfolio-icon">
+                                    <a class="image-popup" href="./images/portfolio/fire-alarm.png"><i class="lni-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-text">
+                        <h4 class="portfolio-title"><a href="#">Fire Alarm Panels</a></h4>
+                        <p class="text">We provide fire alarm panels from the Notifier by Honeywell brand. Highly customizable and versatile.</p>
+                    </div>
+                </div> <!-- single portfolio -->
+            </div>
+            <div class="col-lg-4 col-sm-6 fire">
+                <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                    <div class="portfolio-image">
+                        <img src="./images/portfolio/fire-cm.png" alt="">
+                        <div class="portfolio-overlay d-flex align-items-center justify-content-center">
+                            <div class="portfolio-content">
+                                <div class="portfolio-icon">
+                                    <a class="image-popup" href="./images/portfolio/fire-cm.png"><i class="lni-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-text">
+                        <h4 class="portfolio-title"><a href="#">Control Modules</a></h4>
+                        <p class="text">We provide control modules from the Notifier by Honeywell brand.</p>
+                    </div>
+                </div> <!-- single portfolio -->
+            </div>
+            <div class="col-lg-4 col-sm-6 fire">
+                <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                    <div class="portfolio-image">
+                        <img src="./images/portfolio/fire-panel.png" alt="">
+                        <div class="portfolio-overlay d-flex align-items-center justify-content-center">
+                            <div class="portfolio-content">
+                                <div class="portfolio-icon">
+                                    <a class="image-popup" href="./images/portfolio/fire-panel.png"><i class="lni-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-text">
+                        <h4 class="portfolio-title"><a href="#">Fire Panels</a></h4>
+                        <p class="text">Fire system MCPs and MPS available.</p>
+                    </div>
+                </div> <!-- single portfolio -->
+            </div>
+            <div class="col-lg-4 col-sm-6 pa">
+                <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                    <div class="portfolio-image">
+                        <img src="./images/portfolio/pa.png" alt="">
+                        <div class="portfolio-overlay d-flex align-items-center justify-content-center">
+                            <div class="portfolio-content">
+                                <div class="portfolio-icon">
+                                    <a class="image-popup" href="./images/portfolio/pa.png"><i class="lni-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-text">
+                        <h4 class="portfolio-title"><a href="#">Public Address Systems</a></h4>
+                        <p class="text">Public Address Systems by Bosch, Aties and Ahuja.</p>
+                    </div>
+                </div> <!-- single portfolio -->
+            </div>
+            <div class="col-lg-4 col-sm-6 access">
+                <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                    <div class="portfolio-image">
+                        <img src="./images/portfolio/access.png" alt="">
+                        <div class="portfolio-overlay d-flex align-items-center justify-content-center">
+                            <div class="portfolio-content">
+                                <div class="portfolio-icon">
+                                    <a class="image-popup" href="./images/portfolio/access.png"><i class="lni-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-text">
+                        <h4 class="portfolio-title"><a href="">Access Control Systems</a></h4>
+                        <p class="text">Integrated access control , building automation and Video Management systems.</p>
+                    </div>
+                </div> <!-- single portfolio -->
+            </div>
+            <div class="col-lg-4 col-sm-6 access">
+                <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                    <div class="portfolio-image">
+                        <img src="./images/portfolio/access-gate.png" alt="">
+                        <div class="portfolio-overlay d-flex align-items-center justify-content-center">
+                            <div class="portfolio-content">
+                                <div class="portfolio-icon">
+                                    <a class="image-popup" href="./images/portfolio/access-gate.png"><i class="lni-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-text">
+                        <h4 class="portfolio-title"><a href="">Gate Control Systems</a></h4>
+                        <p class="text">Tripod Turnstiles, Half Height Turnstiles, Automated Flap Barriers ( Retractable ), ¾ Height Turnstiles, Full Height Turnstile, Automated Boom Barriers</p>
+                    </div>
+                </div> <!-- single portfolio -->
+            </div>
+            <div class="col-lg-4 col-sm-6 cctv">
+                <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                    <div class="portfolio-image">
+                        <img src="./images/portfolio/cctv-camera.png" alt="">
+                        <div class="portfolio-overlay d-flex align-items-center justify-content-center">
+                            <div class="portfolio-content">
+                                <div class="portfolio-icon">
+                                    <a class="image-popup" href="./images/portfolio/cctv-camera.png"><i class="lni-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-text">
+                        <h4 class="portfolio-title"><a href="">CCTV Cameras</a></h4>
+                        <p class="text">Analogue CCTV Systems, IP based CCTV Systems, IP CCTV cameras, Thermal Imaging Cameras, Explosion Proof Cameras.</p>
+                    </div>
+                </div> <!-- single portfolio -->
+            </div>
+            <div class="col-lg-4 col-sm-6 cctv">
+                <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                    <div class="portfolio-image">
+                        <img src="./images/portfolio/cctv-dvr.png" alt="">
+                        <div class="portfolio-overlay d-flex align-items-center justify-content-center">
+                            <div class="portfolio-content">
+                                <div class="portfolio-icon">
+                                    <a class="image-popup" href="./images/portfolio/cctv-dvr.png"><i class="lni-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-text">
+                        <h4 class="portfolio-title"><a href="">DVR & Network Storage Systems</a></h4>
+                        <p class="text">High recording resolution of up to 30 ips. Broad range of PTZ camera available from 10X optical zoom to 36X.</p>
+                    </div>
+                </div> <!-- single portfolio -->
+            </div>
+            <div class="col-lg-4 col-sm-6 bms">
+                <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                    <div class="portfolio-image">
+                        <img src="./images/portfolio/bms-controller.png" alt="">
+                        <div class="portfolio-overlay d-flex align-items-center justify-content-center">
+                            <div class="portfolio-content">
+                                <div class="portfolio-icon">
+                                    <a class="image-popup" href="./images/portfolio/bms-controller.png"><i class="lni-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-text">
+                        <h4 class="portfolio-title"><a href="">BMS Controllers and Sensors</a></h4>
+                        <p class="text">Software in Host network can be linked with Windows Domain user Accounts which ensures policy adherence for all Stations in the facility. Archiving of all Alarm, Trend and event data provides large capacity of storage.</p>
+                    </div>
+                </div> <!-- single portfolio -->
+            </div>
+            <div class="col-lg-4 col-sm-6 bms">
+                <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                    <div class="portfolio-image">
+                        <img src="./images/portfolio/bms-water.png" alt="">
+                        <div class="portfolio-overlay d-flex align-items-center justify-content-center">
+                            <div class="portfolio-content">
+                                <div class="portfolio-icon">
+                                    <a class="image-popup" href="./images/portfolio/bms-water.png"><i class="lni-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-text">
+                        <h4 class="portfolio-title"><a href="">Water Leak Detection Systems</a></h4>
+                        <p class="text"></p>
+                    </div>
+                </div> <!-- single portfolio -->
+            </div>
+            <div class="col-lg-4 col-sm-6 bms">
+                <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                    <div class="portfolio-image">
+                        <img src="./images/portfolio/bms-rodent.png" alt="">
+                        <div class="portfolio-overlay d-flex align-items-center justify-content-center">
+                            <div class="portfolio-content">
+                                <div class="portfolio-icon">
+                                    <a class="image-popup" href="./images/portfolio/bms-todent.png"><i class="lni-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-text">
+                        <h4 class="portfolio-title"><a href="">Rodent Repellent Systems</a></h4>
+                        <p class="text"></p>
+                    </div>
+                </div> <!-- single portfolio -->
+            </div>
+        </div> <!-- row -->
+    </div> <!-- container -->
+</section>
+<!--====== portfolio PART ENDS ======-->
+<!--====== TESTIMONIAL THREE PART START ======-->
+<!--<section id="testimonial" class="testimonial-area">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="section-title text-center pb-20">
+                    <h3 class="title">Testimonials</h3>
+                    <p class="text">Hear from our very satisfied and valued customers!</p>
+                </div>--> <!-- section title -->
+            <!--</div>
+        </div>--> <!-- row -->
+
+        <!--<div class="row">
+            <div class="col-lg-12">
+                <div class="row testimonial-active">
+                    <div class="col-lg-4">
+                        <div class="single-testimonial mt-30 mb-30 text-center">
+                            <div class="testimonial-image">
+                                <img src="./images/author-3.jpg" alt="Author">
+                            </div>
+                            <div class="testimonial-content">
+                                <p class="text">Good Stuff here!</p>
+                                <h6 class="author-name">Macqvina Hendricks</h6>
+                                <span class="sub-title">CEO, GrayGrids</span>
+                            </div>
+                        </div>--> <!-- single testimonial -->
+                    <!--</div>
+                    <div class="col-lg-4">
+                        <div class="single-testimonial mt-30 mb-30 text-center">
+                            <div class="testimonial-image">
+                                <img src="./images/author-4.jpg" alt="Author">
+                            </div>
+                            <div class="testimonial-content">
+                                <p class="text">Good stuff!</p>
+                                <h6 class="author-name">Kenrick Fernandes.</h6>
+                                <span class="sub-title">CEO, ABC</span>
+                            </div>
+                        </div>--> <!-- single testimonial -->
+                    <!--</div>
+                </div>--> <!-- row -->
+            <!--</div>
+        </div>--> <!-- row -->
+    <!--</div>--> <!-- container -->
+<!--</section>-->
+<!--====== TESTIMONIAL THREE PART ENDS ======-->
+<!--====== CLIENT LOGO PART START ======-->
+<section id="client" class="client-logo-area">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="section-title text-center pb-20">
+                    <h3 class="title">Our Clientele</h3>
+                    <p class="text">We have provided service upto and above expectations for our clients.</p>
+                </div> <!-- row -->
+            </div>
+        </div> <!-- row -->
+        <div class="row client-active">
+            <div class="col-lg-3">
+                <div class="single-client text-center">
+                    <img src="./images/logos/logo-vodafone.png" alt="Logo">
+                </div> <!-- single client -->
+            </div>
+            <div class="col-lg-3">
+                <div class="single-client text-center">
+                    <img src="./images/logos/logo-birla.png" alt="Logo">
+                </div> <!-- single client -->
+            </div>
+            <div class="col-lg-3">
+                <div class="single-client text-center">
+                    <img src="./images/logos/logo-cbi.png" alt="Logo">
+                </div> <!-- single client -->
+            </div>
+            <div class="col-lg-3">
+                <div class="single-client text-center">
+                    <img src="./images/logos/logo-hiral.png" alt="Logo">
+                </div> <!-- single client -->
+            </div>
+            <div class="col-lg-3">
+                <div class="single-client text-center">
+                    <img src="./images/logos/logo-kanakia.png" alt="Logo">
+                </div> <!-- single client -->
+            </div>
+            <div class="col-lg-3">
+                <div class="single-client text-center">
+                    <img src="./images/logos/logo-lokpuram.png" alt="Logo">
+                </div> <!-- single client -->
+            </div>
+            <div class="col-lg-3">
+                <div class="single-client text-center">
+                    <img src="./images/logos/logo-marathon.png" alt="Logo">
+                </div> <!-- single client -->
+            </div>
+            <div class="col-lg-3">
+                <div class="single-client text-center">
+                    <img src="./images/logos/logo-mcx.png" alt="Logo">
+                </div> <!-- single client -->
+            </div>
+            <div class="col-lg-3">
+                <div class="single-client text-center">
+                    <img src="./images/logos/logo-navy.png" alt="Logo">
+                </div> <!-- single client -->
+            </div>
+            <div class="col-lg-3">
+                <div class="single-client text-center">
+                    <img src="./images/logos/logo-raheja.png" alt="Logo">
+                </div> <!-- single client -->
+            </div>
+            <div class="col-lg-3">
+                <div class="single-client text-center">
+                    <img src="./images/logos/logo-rittal.png" alt="Logo">
+                </div> <!-- single client -->
+            </div>
+            <div class="col-lg-3">
+                <div class="single-client text-center">
+                    <img src="./images/logos/logo-srl.png" alt="Logo">
+                </div> <!-- single client -->
+            </div>
+            <div class="col-lg-3">
+                <div class="single-client text-center">
+                    <img src="./images/logos/logo-times.png" alt="Logo">
+                </div> <!-- single client -->
+            </div>
+            <div class="col-lg-3">
+                <div class="single-client text-center">
+                    <img src="./images/logos/logo-trinity.png" alt="Logo">
+                </div> <!-- single client -->
+            </div>
+            <div class="col-lg-3">
+                <div class="single-client text-center">
+                    <img src="./images/logos/logo-weatherford.png" alt="Logo">
+                </div> <!-- single client -->
+            </div>
+            <div class="col-lg-3">
+                <div class="single-client text-center">
+                    <img src="./images/logos/logo-8handi.png" alt="Logo">
+                </div> <!-- single client -->
+            </div>
+        </div> <!-- row -->
+    </div> <!-- container -->
+</section>
+<!--====== CLIENT LOGO PART ENDS ======-->
+<!--====== CONTACT TWO PART START ======-->
+<section id="contact" class="contact-area">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="section-title text-center pb-20">
+                    <h3 class="title">Get in touch</h3>
+                    <p class="text">Feel free to visit or contact us. We are happy to hear from you!</p>
+                </div> <!-- section title -->
+            </div>
+        </div> <!-- row -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="row testimonial-active">
+                    <div class="col-lg-6">
+                        <div class="single-testimonial mt-30 mb-30 text-center">
+                            <div class="testimonial-image">
+                                <img src="./images/Maynard.png" alt="Author">
+                            </div>
+                            <div class="testimonial-content">
+                                <h6 class="author-name">Maynard Fernandes</h6>
+                                <span class="sub-title">CEO & Founder</span>
+                                <br />
+                                <ul class="contact-info">
+                                    <li></li>
+                                    <li><i class="lni-phone-handset"></i> +91-9518756457</li>
+                                    <li><i class="lni-envelope"></i> <a href="mailto:maynard.fernandes@alphatechno.com">maynard.fernandes@alphatechno.com</a></li>
+                                </ul>
+                            </div>
+                        </div> <!-- single testimonial -->
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="single-testimonial mt-30 mb-30 text-center">
+                            <div class="testimonial-image">
+                                <img src="./images/Viera.png" alt="Author">
+                            </div>
+                            <div class="testimonial-content">
+                                <h6 class="author-name">Viera   Fernandes</h6>
+                                <span class="sub-title">Co-Founder</span>
+                                <br />
+                                <ul class="contact-info">
+                                    <li></li>
+                                    <li><i class="lni-phone-handset"></i> +91-9821978814</li>
+                                    <li><i class="lni-envelope"></i> <a href="mailto:viera.fernandes@alphatechno.com">viera.fernandes@alphatechno.com</a></li>
+                                </ul>
+                            </div>
+                        </div> <!-- single testimonial -->
+                    </div>
+                </div> <!-- row -->
+            </div>
+        </div> <!-- row -->
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="contact-two mt-50 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                    <h4 class="contact-title">Lets talk about your project</h4>
+                    <p class="text">We'd like to help you fulfill the needs of your next big project. Please drop us a message or give us a shout, and we will help you with the best solutions that suit your needs perfectly.</p>
+                    <ul class="contact-info">
+                        <li>
+                            <i class="lni-money-location"></i> A-02 Olive Co-op Hsg. Soc. Ltd
+                            Sri Prastha Road, Near UCO Bank.
+                            Nallasopara West, Dist. Palghar.
+                            Pin 401203.
+                        </li>
+                        <li><i class="lni-envelope"></i> maynard.fernandes@alphatechno.com</li>
+                    </ul>
+                </div> <!-- contact two -->
+            </div>
+            <!--<div class="col-lg-6">
+                <div class="contact-form form-style-one mt-35 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
+                    <form id="contact-form" action="./contact.php" method="post">
+                        <div class="form-input mt-15">
+                            <label>Name</label>
+                            <div class="input-items default">
+                                <input type="text" placeholder="Name" name="name">
+                                <i class="lni-user"></i>
+                            </div>
+                        </div>--> <!-- form input -->
+                        <!--<div class="form-input mt-15">
+                            <label>Email</label>
+                            <div class="input-items default">
+                                <input type="email" placeholder="Email" name="email">
+                                <i class="lni-envelope"></i>
+                            </div>
+                        </div>--> <!-- form input -->
+                        <!--<div class="form-input mt-15">
+                            <label>Message</label>
+                            <div class="input-items default">
+                                <textarea placeholder="Message" name="massage"></textarea>
+                                <i class="lni-pencil-alt"></i>
+                            </div>
+                        </div>--> <!-- form input -->
+                        <!--<p class="form-message"></p>
+                        <div class="form-input rounded-buttons mt-20">
+                            <button type="submit" class="main-btn rounded-three">Submit</button>
+                        </div>--> <!-- form input -->
+                    <!--</form>
+                </div>--> <!-- contact form -->
+            <!--</div>-->
+        </div> <!-- row -->
+    </div> <!-- container -->
+</section>
+<!--====== CONTACT TWO PART ENDS ======-->
